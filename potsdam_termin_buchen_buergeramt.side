@@ -1,0 +1,175 @@
+{
+  "id": "f9a9fd76-7e66-4d19-93ce-a6199dc71afd",
+  "version": "2.0",
+  "name": "reisepass",
+  "url": "https://egov.potsdam.de",
+  "tests": [{
+    "id": "daf3e63d-0ff0-48b9-aeb9-ad885838161d",
+    "name": "first click",
+    "commands": [{
+      "id": "b34378f1-1bab-4fec-ab69-3ddd90c5a3b0",
+      "comment": "",
+      "command": "open",
+      "target": "/tnv/?START_OFFICE=buergerservice",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb2f0ce7-384d-4b3e-9cfb-3b8dd4b203a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4901c53b-7cb4-44ac-8c27-6b5b76e247b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=action_officeselect_termnew_prefix1333626470",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4406ee5-82b8-432a-b124-1541878dadc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_1337592181",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a3bc632-1868-4266-8fb1-7c4a703a108f",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_1337592181",
+      "targets": [],
+      "value": "label=3"
+    }, {
+      "id": "6c8b3f1e-0c3f-40dd-b4f4-b4c318aca1de",
+      "comment": "",
+      "command": "click",
+      "target": "id=action_concernselect_next",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5ab7897-eb81-42ae-9d78-ffc02e9d5aa5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Weiter\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b51afb-0bbe-4342-9d96-21df626fdea5",
+      "comment": "",
+      "command": "while",
+      "target": "true",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "467701d4-9a53-49c9-8bd7-541de899418f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace15558-3695-4560-9d71-93152931c57a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Vorwärts\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a69f16e-9fbb-4274-b6c1-d41a8c043143",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1db57343-1b89-4006-a42e-1b7e6b8c88cc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Vorwärts\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dec2863-2a32-4a33-95b9-c05db08118dd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e412c59-e139-4a0e-846d-1ad408ef8816",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Vorwärts\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53b3e33e-03b5-4ce4-bbae-bb97adbca351",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b462a5d-c25a-414a-b419-6b352e3edf40",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Rückwärts\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26c9e062-3cbb-4daa-963a-fdd54e12e930",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faef837e-a13b-478f-b839-865d118e24fe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Rückwärts\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "460cee04-3298-4a3c-89fe-81231d49b771",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2120c6b-91e6-4efc-9446-2c826c908100",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(text(), \"Rückwärts\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc861d7-1aca-4a3d-88bd-b691e58fa30b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (document.body.innerText.includes('3 frei')) { var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); var oscillator = audioCtx.createOscillator(); oscillator.type = 'sine'; oscillator.frequency.setValueAtTime(440, audioCtx.currentTime); oscillator.connect(audioCtx.destination); oscillator.start(); setTimeout(function(){ oscillator.stop(); }, 500); }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "776846c1-5260-47b5-8c2a-8a9eea72f978",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "84213cae-f3be-4f1a-8c60-e7a4c431ff6e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["daf3e63d-0ff0-48b9-aeb9-ad885838161d"]
+  }],
+  "urls": ["https://egov.potsdam.de/"],
+  "plugins": []
+}
